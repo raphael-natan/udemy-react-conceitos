@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 export default () => {
-    const [contador, setContador] = useState(100)
+    const [contador, setContador] = useState(200)
     const [parOuImpar, setParOuImpar] = useState('Par')
 
     useEffect(() => {
