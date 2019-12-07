@@ -8,11 +8,17 @@ import Familia from './componentes/Familia'
 import Membro from './componentes/Membro'
 import ComponenteComFuncao from './componentes/ComponenteComFuncao'
 import Pai from './componentes/Pai'
+import ComponenteClasse from './componentes/ComponenteClasse'
+import Contador from './componentes/Contador'
+import Hook from './componentes/Hoook'
 const element = document.getElementById('root')
 ReactDom.render(
     <div>
-        <Pai/>
-        <ComponenteComFuncao/>
+        <Hook/>
+        <Contador numero={0} />
+        <ComponenteClasse valor="rafa" />
+        <Pai />
+        <ComponenteComFuncao />
         <Familia sobrenome="Nunes">
             <Membro nome="Raphael" />
             <Membro nome="Jéssica" />
